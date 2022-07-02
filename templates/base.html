@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% endblock meta %}
-    {% black extra_meta %}
+
+    {% block extra_meta %}
     {% endblock extra_meta %}
 
     {% block corecss %}
@@ -21,9 +22,9 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     {% endblock corecss%}
 
-    {% black extra_css %}
+    {% block extra_css %}
     {% endblock extra_css %}
-    <title>Bouteque Ado {% black extra_title %}
+    <title>Bouteque Ado {% block extra_title %}
         {% endblock extra_title %}</title>
 </head>
 
@@ -56,7 +57,7 @@
     </script>
     {% endblock corejs %}
 
-    {% black extra_js %}
+    {% block extra_js %}
     {% endblock extra_js %}
 
 
