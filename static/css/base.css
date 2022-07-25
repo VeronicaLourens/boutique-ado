@@ -12,6 +12,7 @@ body {
 
 /* from Bulma */
 .icon {
+    /* to center font awesome icons with a consistent size */
     align-items: center;
     display: inline-flex;
     justify-content: center;
