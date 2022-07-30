@@ -12,7 +12,6 @@ body {
 
 /* from Bulma */
 .icon {
-    /* to center font awesome icons with a consistent size */
     align-items: center;
     display: inline-flex;
     justify-content: center;
@@ -53,8 +52,6 @@ body {
     color: white !important;
 }
 
-
-
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -74,10 +71,8 @@ body {
 }
 
 .bg-black {
-    /* to make the delivery text backgroup black*/
     background: #000 !important;
 }
-
 
 .overlay {
     height: 100%;
@@ -89,12 +84,10 @@ body {
     z-index: -1;
 }
 
-
 a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
-
 
 .btt-button {
     height: 42px;
@@ -178,8 +171,6 @@ a.category-badge>span.badge:hover {
     overflow-y: auto;
 }
 
-
-
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -200,7 +191,6 @@ a.category-badge>span.badge:hover {
     }
 
     .header-container {
-        /* to push the body down to the bottom of main page header */
         padding-top: 164px;
     }
 }
