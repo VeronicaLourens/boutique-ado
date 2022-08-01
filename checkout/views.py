@@ -29,7 +29,7 @@ def checkout(request):
         currency=settings.STRIPE_CURRENCY,
     )
 
-    print(intent)
+    #print(intent)
 
     order_form = OrderForm()
 

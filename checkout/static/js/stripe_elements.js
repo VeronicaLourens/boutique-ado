@@ -78,4 +78,3 @@ form.addEventListener('submit', function (ev) {
         }
     });
 });
-Footer
